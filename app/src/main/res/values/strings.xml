@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Career</string>
+    <string name="sets">Sets</string>
+    <string name="app_in_name">My Career</string>
+    <string name="app_name_after">Авторизация/Регистрация</string>
+    <string name="text_bottom">Войдите в свою учетную запись!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="vk">
+        <a href="https://vk.com/moscowpolytech">Политех Вконтакте</a>
+    </string>
+    <string name="inst">
+        <a href="https://www.instagram.com/mospolytech/">Политех в Инстаграмме</a>
+    </string>
+    <string name="fb">
+        <a href="https://www.facebook.com/moscowpolytech/?ref=aymt_homepage_panel">Политех в Фейсбуке</a>
+    </string>
+    <string name="yandex">
+        <a href="https://zen.yandex.ru/id/5b45c246a2e4e400a9222c9b">Политех в Яндекс.Дзен</a>
+    </string>
+    <string name="whatsapp">
+        <a href="+7 (985) 840-33-58">Политех WhatsApp</a>
+    </string>
+</resources>

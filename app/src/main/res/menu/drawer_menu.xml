@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Главная" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Чат" />
+
+    </group>
+
+    <item android:title="Дополнительно">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Поделиться"/>
+
+            <item
+                android:id="@+id/nav_social"
+                android:icon="@drawable/ic_social"
+                android:title="Социальные сети"/>
+
+            <item
+                android:id="@+id/nav_singout"
+                android:icon="@drawable/ic_signout"
+                android:title="Выход"/>
+        </menu>
+    </item>
+
+</menu>

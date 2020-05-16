@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924338994690",
+    "firebase_url": "https://tesster-555.firebaseio.com",
+    "project_id": "tesster-555",
+    "storage_bucket": "tesster-555.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924338994690:android:47714fbf685449c709b11b",
+        "android_client_info": {
+          "package_name": "com.example.tesster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924338994690-arr3hegk91feju99kej0muqrglbo26l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9YeebAzzLnX_bXr_CzHUYcB-31fAeNk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924338994690-arr3hegk91feju99kej0muqrglbo26l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

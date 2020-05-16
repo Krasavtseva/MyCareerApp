@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/lv">
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/poiret_one"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textAlignment="textEnd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="@+id/message_user"
+        android:fontFamily="@font/poiret_one"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <com.github.library.bubbleview.BubbleTextView
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/lv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:id="@+id/message_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:arrowWidth="8dp"
+        app:angle="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="left"
+        app:bubbleColor="@color/white"
+        app:arrowCenter="true" />
+
+</RelativeLayout>
